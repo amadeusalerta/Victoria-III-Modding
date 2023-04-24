@@ -87,6 +87,9 @@
  ideology_futurism:0 "Fütürist"
  ideology_futurism_desc:0 "#lore Fütüristler yıkımın,dinamizmin ve fabrikaların tüten bacalarının mutlak gücün kaynağı olduğuna inanıyorlar ve bunu şiddetle savunuyorlar.#!"
   
+ ideology_imperialism:0 "Emperyalist"
+ ideology_imperialism_desc:0 "#lore Bu grup, Yayılmacı ve saldırgan bir dış politikayı destekliyor. Dışardaki kültürlerin asimile olması ve devletimize hizmet etmeleri gerektiğini düşünüyorlar.#!" 
+  
  ideology_individualist:0 "Bireyci"
  ideology_individualist_desc:0 "#lore Bu grup, her bireyin kendi kaderinden sorumlu olduğuna inanıyor ve bireyin kendi cebinden karşılayabileceği hizmetlerin masraflarını karşılayan devlet programlarına karşı çıkıyor.#!"
   

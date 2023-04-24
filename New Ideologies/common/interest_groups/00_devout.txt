@@ -6,6 +6,7 @@
 		ideology_pious
 		ideology_moralist
 		ideology_ancap
+		ideology_imperialism
 	}
 	
 	enable = {

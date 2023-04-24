@@ -125,8 +125,60 @@ ideology_ancap = {
 	}
 }
 
+ideology_imperialism = {
+	icon = "gfx/interface/icons/ideology_icons/imperialism.dds"
+	
+	lawgroup_economic_system = {	
+		law_laissez_faire = approve
+		law_interventionism = strongly_approve
+		law_agrarianism = disapprove
+		law_traditionalism = strongly_disapprove	
+		law_cooperative_ownership = strongly_disapprove
+		law_command_economy = disapprove
+	}
+	
+	lawgroup_distribution_of_power = {
+		law_landed_voting = approve
+		law_autocracy = approve
+		law_oligarchy = strongly_approve
+		law_wealth_voting = approve
+		law_census_voting = disapprove
+		law_universal_suffrage = strongly_disapprove
+		law_anarchy = strongly_disapprove
+	}
+	
+		lawgroup_army_model = {
+		law_peasant_levies = strongly_disapprove
+		law_professional_army = strongly_approve
+		law_national_militia = disapprove
+		law_mass_conscription = neutral
+	}
+	
+	lawgroup_colonization = {
+		law_no_colonial_affairs = strongly_disapprove
+		law_colonial_resettlement = approve
+		law_colonial_exploitation = strongly_approve
+	}
+	
+		lawgroup_taxation = {
+		law_consumption_based_taxation = strongly_disapprove
+		law_land_based_taxation = disapprove
+		law_per_capita_based_taxation = approve
+		law_proportional_taxation = neutral
+		law_graduated_taxation = disapprove
+	}
+	
+		lawgroup_citizenship = {
+		law_ethnostate = neutral
+		law_national_supremacy = neutral
+		law_racial_segregation = neutral
+		law_cultural_exclusion = approve
+		law_multicultural = strongly_disapprove	
+	}
+}
+
 ideology_futurism = {
-	icon = "gfx/interface/icons/ideology_icons/futurist.dds"
+	icon = "gfx/interface/icons/ideology_icons/futurism.dds"
 	
 	lawgroup_economic_system = {	
 		law_laissez_faire = approve
