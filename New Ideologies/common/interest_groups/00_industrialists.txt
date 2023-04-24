@@ -6,7 +6,7 @@
 		ideology_plutocratic
 		ideology_laissez_faire
 		ideology_individualist
-		ideology_ancap
+		ideology_futurism
 	}
 	
 	enable = {

@@ -5,8 +5,7 @@
 	ideologies = {
 		ideology_pious
 		ideology_moralist
-		ideology_patriarchal
-		ideology_futurism
+		ideology_ancap
 	}
 	
 	enable = {

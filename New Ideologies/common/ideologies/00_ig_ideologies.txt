@@ -125,6 +125,43 @@ ideology_ancap = {
 	}
 }
 
+ideology_futurism = {
+	icon = "gfx/interface/icons/ideology_icons/futurist.dds"
+	
+	lawgroup_economic_system = {	
+		law_laissez_faire = approve
+		law_interventionism = approve
+		law_agrarianism = strongly_disapprove
+		law_traditionalism = disapprove	
+		law_cooperative_ownership = neutral
+		law_command_economy = neutral
+	}
+	
+	lawgroup_distribution_of_power = {
+		law_landed_voting = neutral
+		law_autocracy = approve
+		law_oligarchy = approve
+		law_wealth_voting = disapprove
+		law_census_voting = disapprove
+		law_universal_suffrage = strongly_disapprove
+		law_anarchy = approve
+	}
+	
+		lawgroup_army_model = {
+		law_peasant_levies = strongly_disapprove
+		law_professional_army = approve
+		law_national_militia = neutral
+		law_mass_conscription = strongly_approve
+	}
+	
+	lawgroup_rights_of_women = {
+		law_no_womens_rights = neutral
+		law_women_own_property = approve
+		law_women_in_the_workplace = neutral
+		law_womens_suffrage = strongly_disapprove
+	}
+}
+
 ideology_individualist = {
 	icon = "gfx/interface/icons/ideology_icons/individualist.dds"
 	
@@ -514,52 +551,6 @@ ideology_proletarian = {
 		law_no_schools = disapprove	
 	}
 }
-
-ideology_futurism = {
-	icon = "gfx/interface/icons/ideology_icons/ideology_futurist.dds"
-				
-		lawgroup_governance_principles = {
-		law_council_republic = strongly_disapprove
-		law_parliamentary_republic = disapprove		
-		law_presidential_republic = approve
-		law_theocracy = strongly_disapprove
-		law_monarchy = disapprove
-	}
-	
-	lawgroup_rights_of_women = {
-		law_no_womens_rights = neutral
-		law_women_own_property = approve
-		law_women_in_the_workplace = disapprove
-		law_womens_suffrage = strongly_disapprove
-	}
-	
-		lawgroup_army_model = {
-		law_national_militia = neutral
-		law_mass_conscription = strongly_approve
-		law_peasant_levies = strongly_disapprove
-		law_professional_army = approve
-	}
-	
-	lawgroup_distribution_of_power = {
-		law_landed_voting = neutral
-		law_autocracy = strongly_approve
-		law_oligarchy = approve
-		law_wealth_voting = disapprove
-		law_census_voting = disapprove
-		law_universal_suffrage = strongly_disapprove
-		law_anarchy = neutral
-	}
-	
-	lawgroup_economic_system = {
-		law_cooperative_ownership = neutral
-		law_command_economy = neutral
-		law_interventionism = approve
-		law_agrarianism = strongly_disapprove
-		law_traditionalism = strongly_disapprove	
-		law_laissez_faire = approve	
-	}
-}
-
 
 ideology_egalitarian = {
 	icon = "gfx/interface/icons/ideology_icons/egalitarian.dds"
