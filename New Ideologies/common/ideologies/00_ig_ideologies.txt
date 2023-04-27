@@ -177,6 +177,47 @@ ideology_imperialism = {
 	}
 }
 
+ideology_ottomanism = {
+	icon = "gfx/interface/icons/ideology_icons/pan_ottomanism.dds"
+	
+	lawgroup_distribution_of_power = {
+		law_landed_voting = approve
+		law_autocracy = approve
+		law_oligarchy = strongly_approve
+		law_wealth_voting = approve
+		law_census_voting = disapprove
+		law_universal_suffrage = strongly_disapprove
+		law_anarchy = strongly_disapprove
+	}
+	
+	lawgroup_colonization = {
+		law_no_colonial_affairs = neutral
+		law_colonial_resettlement = strongly_approve
+		law_colonial_exploitation = approve
+	}
+	
+		lawgroup_citizenship = {
+		law_ethnostate = strongly_disapprove
+		law_national_supremacy = disapprove
+		law_racial_segregation = neutral
+		law_cultural_exclusion = approve
+		law_multicultural = strongly_approve
+	}
+	
+	lawgroup_slavery = {
+		law_slavery_banned = strongly_approve
+		law_legacy_slavery = disapprove
+		law_debt_slavery = strongly_disapprove
+		law_slave_trade = strongly_disapprove
+	}
+	
+		lawgroup_migration = {
+		law_closed_borders = disapprove
+		law_migration_controls = approve
+		law_no_migration_controls = neutral
+	}
+}
+
 ideology_futurism = {
 	icon = "gfx/interface/icons/ideology_icons/futurism.dds"
 	

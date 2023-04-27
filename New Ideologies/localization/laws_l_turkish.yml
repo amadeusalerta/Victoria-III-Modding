@@ -89,6 +89,9 @@
   
  ideology_imperialism:0 "Emperyalist"
  ideology_imperialism_desc:0 "#lore Bu grup, Yayılmacı ve saldırgan bir dış politikayı destekliyor. Dışardaki kültürlerin asimile olması ve devletimize hizmet etmeleri gerektiğini düşünüyorlar.#!" 
+ 
+ ideology_ottomanism:0 "Osmanlıcı"
+ ideology_ottomanism_desc:0 "#lore Bu grup,Tüm Osmanlı İmparatorluğu vatandaşlarının kanun önünde eşit olduğunu düşünüyor ayrıca ayrımcılığa şiddetle karşı çıkıyor.#!"
   
  ideology_individualist:0 "Bireyci"
  ideology_individualist_desc:0 "#lore Bu grup, her bireyin kendi kaderinden sorumlu olduğuna inanıyor ve bireyin kendi cebinden karşılayabileceği hizmetlerin masraflarını karşılayan devlet programlarına karşı çıkıyor.#!"
